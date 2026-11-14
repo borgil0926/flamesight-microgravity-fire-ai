@@ -1,0 +1,18 @@
+{
+  "name": "flamesight",
+  "version": "1.0.0",
+  "description": "FlameSight: AI-powered fire safety insights from microgravity combustion data (NASA Space Apps Challenge 2026, Flame in Freefall).",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "vitest": "^2.1.0"
+  },
+  "license": "MIT"
+}

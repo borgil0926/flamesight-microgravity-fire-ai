@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FlameSight: AI-powered fire safety insights from NASA microgravity combustion research." />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+    <title>FlameSight · Flame in Freefall</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#mission" aria-label="FlameSight home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span><strong>FlameSight</strong><small>AI fire safety from microgravity combustion</small></span>
+      </a>
+      <nav id="nav" aria-label="Sections">
+        <a href="#mission">Mission Risk</a>
+        <a href="#map">Flammability Map</a>
+        <a href="#flame">Flame Lab</a>
+        <a href="#droplet">Droplet Lab</a>
+        <a href="#model">AI Model</a>
+        <a href="#experiments">NASA Data</a>
+      </nav>
+    </header>
+    <main id="app" aria-live="polite"></main>
+    <footer class="foot">
+      NASA Space Apps Challenge 2026 · <em>Flame in Freefall</em> · Physics-informed model calibrated to trends from NASA FLEX, BASS, Saffire, SoFIE and ACME. Not flight-certified; for research and education.
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
